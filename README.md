@@ -37,25 +37,25 @@ The objective of the Child Monitoring System is to:
 
 # ✨ Key Features
 
-- 📞 Call activity monitoring  
-- 💬 SMS event monitoring  
-- 📍 GPS location tracking  
-- ☁️ Cloud database storage  
-- 🔔 Alert monitoring system  
-- ⚙️ Background monitoring service  
-- 📱 Boot event detection  
-- 📡 Phone state monitoring  
+- 📞 Call activity monitoring
+- 💬 SMS event monitoring
+- 📍 GPS location tracking
+- ☁️ Cloud database storage
+- 🔔 Alert monitoring system
+- ⚙️ Background monitoring service
+- 📱 Boot event detection
+- 📡 Phone state monitoring
 
 ---
 
 # 🛠️ Technologies Used
 
-- Java  
-- Android SDK  
-- Broadcast Receivers  
-- Background Services  
-- GPS / Location Services  
-- Cloud / Server Database  
+- Java
+- Android SDK
+- Broadcast Receivers
+- Background Services
+- GPS / Location Services
+- Cloud / Server Database
 
 ---
 
@@ -102,38 +102,44 @@ Child-Tracking-System-Android
 
 # 📖 Package Description
 
-### child/dao
-Handles database related operations.
+### `child/dao`
 
-- **ConnectionManager.java** – Manages connection with database/server  
-- **UpdateDB.java** – Updates monitored data into database  
+Contains database related operations.
 
-### child/protect
+- **ConnectionManager.java** – Manages connection with database/server
+- **UpdateDB.java** – Updates monitored data into database
+
+### `child/protect`
+
 Contains parameter processing logic.
 
-- **ParameterServlet.java** – Handles parameter related operations  
+- **ParameterServlet.java** – Handles parameter related operations
 
-### child/common
+### `child/common`
+
 Contains shared values and reusable methods.
 
 - **SharedMethods.java**
 - **SharedValues.java**
 
-### child/receivers
+### `child/receivers`
+
 Contains Android broadcast receivers for handling events.
 
-- **AlarmReceiver.java** – Handles scheduled tasks  
-- **BootReceiver.java** – Starts services when device boots  
-- **MyPhoneStateListener.java** – Monitors phone state  
-- **OutCallReceiver.java** – Handles outgoing call events  
-- **SmsReceiver.java** – Monitors SMS messages  
+- **AlarmReceiver.java** – Handles scheduled tasks
+- **BootReceiver.java** – Starts services when device boots
+- **MyPhoneStateListener.java** – Monitors phone state
+- **OutCallReceiver.java** – Handles outgoing call events
+- **SmsReceiver.java** – Monitors SMS messages
 
-### child/services
+### `child/services`
+
 Contains background services.
 
-- **BackgroundService.java** – Runs monitoring services continuously in background  
+- **BackgroundService.java** – Runs monitoring services continuously in background
 
-### src
+### `src`
+
 Contains supporting classes.
 
 - **ConnectionManager.java**
@@ -149,6 +155,37 @@ Contains supporting classes.
 4. Latitude and longitude values are periodically uploaded to the database.
 5. Alerts and activity details are stored on a centralized server.
 6. Parents can later log in and view the monitored information.
+
+---
+
+# 📍 Use Cases
+
+This system can be useful for:
+
+- Parent child safety monitoring
+- Child location tracking
+- Mobile activity monitoring
+- Learning Android monitoring architecture
+- Academic Android development projects
+
+---
+
+# ⚠️ Ethical Notice
+
+This project is intended **only for educational and research purposes**. Monitoring systems should always be used responsibly and with proper consent according to privacy regulations.
+
+---
+
+# 🚀 Future Improvements
+
+Possible improvements include:
+
+- Real-time parent dashboard
+- Push notification alerts
+- Better cloud synchronization
+- Enhanced UI for monitoring panel
+- Improved security and encryption
+- Battery optimized background tracking
 
 ---
 
@@ -176,11 +213,11 @@ Computer Science Student
 
 Interested in:
 
-- Android Development  
-- Java Programming  
-- Mobile Application Development  
-- GPS Tracking Systems  
-- Software Engineering  
+- Android Development
+- Java Programming
+- Mobile Application Development
+- GPS Tracking Systems
+- Software Engineering
 
 ---
 
